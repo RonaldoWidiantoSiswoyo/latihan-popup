@@ -1,0 +1,23 @@
+.modal,
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.modal-content {
+  position: absolute;
+  transform: translate(50%, 50%);
+  top: 15%;
+  left: 10%;
+  width: 600px;
+  height: 200px;
+  background-color: white;
+  padding: 20px;
+}
+.overlay {
+  background-color: burlywood;
+}
